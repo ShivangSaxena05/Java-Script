@@ -1,12 +1,8 @@
-function printFibonacci(n=10) {
-    let a = 0, b = 1, c;
-    console.log(a);
-    console.log(b);
-    for (let i = 2; i < n; i++) {
-      c = a + b;
-      console.log(c);
-      a = b;
-      b = c;
-    }
-  }
-  printFibonacci()
+function print_table(n=5, i = 1) {
+  if (i == 11) // Base case
+      return;
+  console.log(n + " * " + i + " = " + n * i);
+  i++;
+  print_table(n, i);
+}
+print_table()
