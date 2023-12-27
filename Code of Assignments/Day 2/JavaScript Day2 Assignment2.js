@@ -10,7 +10,7 @@ function factorial(a=5){
         for(let i=a;i>1;i--){
             result *= i
         }
-        console.log("Factorial is = "+result)
+        console.log("Factorial of " +a+ " is = "+result)
     }
 }
 factorial()

@@ -1,4 +1,4 @@
-function largerone(a=18,b=10){
+function largerone(a=50,b=223){
     if (a>b){
         console.log("Larger no. between both is = "+a)
     }

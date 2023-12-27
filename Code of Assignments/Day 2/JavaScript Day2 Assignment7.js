@@ -11,6 +11,6 @@ function count(a="Hello! How are you?") {
           vowelCount++;
       }
   }
-  console.log(vowelCount)
+  console.log("Vowels cound in "+a+" are "+vowelCount)
 }
 count()

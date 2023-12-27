@@ -1,9 +1,3 @@
-// function prime(a=50){
-//     for(let i=2;i<a;i++){
-//         console.log("Prime numbers are = "+i)
-//     }
-// }
-// prime()
 function countPrimes(num){
     let count=0
     let primeCount=0;
@@ -27,4 +21,4 @@ function countPrimes(num){
     return primeCount;
   }
   
-  console.log(countPrimes(100));
+  console.log(countPrimes(50));

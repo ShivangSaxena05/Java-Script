@@ -1,4 +1,4 @@
-function calculate(a=10,b=20){
+function calculate(a=40,b=50){
 let obj = prompt("Enter operation : ")
 if(obj=='+'){
   console.log(a+b)

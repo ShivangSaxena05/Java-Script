@@ -3,10 +3,10 @@ function check(a="level"){
     let reverse = characters.reverse()
     reversestring=reverse.join('')
     if (a==reversestring){
-        console.log("It is palendrome")
+        console.log(a+" Yes It is palendrome")
     }
     else{
-        console.log("It is not a palendrome")
+        console.log(a+" No It is not a palendrome")
     }
 }
 check()
