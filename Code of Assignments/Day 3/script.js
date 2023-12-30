@@ -8,7 +8,7 @@ function getRandomColor(){
     return random
 }
 
-function changecolor(){
-    document.body.style.backgroundColor = getRandomColor()
+function changecolor(){   
+        document.body.style.backgroundColor = getRandomColor()
 }
 document.onclick=changecolor
