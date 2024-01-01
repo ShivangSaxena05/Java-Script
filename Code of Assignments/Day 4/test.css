@@ -1,0 +1,13 @@
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 300px auto;
+    align-items: center;
+}
+button{
+    background-color: rgba(0, 0, 0, 0.433);
+    border: grey;
+    color: gold;
+    box-shadow: 10 0 10 gold;
+    padding: 20px 100px;
+}

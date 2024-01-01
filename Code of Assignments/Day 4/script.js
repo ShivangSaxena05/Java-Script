@@ -5,6 +5,7 @@ function searchmovie(){
     fetch(search).then(function(data){
         return data.json()
     }).then(function(data){
+        document.getElementById('cont').style.display='flex'
         document.getElementById('title').innerText=data.Title
         document.getElementById('Actors').innerText=data.Actors
         document.getElementById('Rated').innerText=data.Rated
