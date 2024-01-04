@@ -18,3 +18,4 @@ function searchmovie(){
         console.log(data)
     })
 }
+// application programming interface
